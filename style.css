@@ -11,6 +11,10 @@ Text Domain: jen_vitrano_blog_site
 @import url("stylesheets/normalize.css");
 @import url("stylesheets/skeleton.css");
 
+body {
+  border: 20px solid #c8f0d8;
+}
+
 *{
     color: #000000;
     font-size: 14px;
@@ -74,3 +78,8 @@ a {
     color: #cccccc;
 }
 /*--- End Menu --- */
+
+/*--- Begin Footer Style --- */
+footer {
+  background-color: #c8f0d8;
+}
