@@ -1,6 +1,8 @@
-# Blank-Template-WIEsu2016
+# Blog-Template-WIEsu2016
 ## Author: Jen Vitrano
 
 ###Description:
 
-Blank Template for Summer 2016
+Blog Template
+
+WordPress template to be used for blog site
