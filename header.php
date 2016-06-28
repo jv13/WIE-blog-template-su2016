@@ -32,4 +32,7 @@
               </div>
             </div>
 
+            <?php dynamic_sidebar('first-widget'); ?>
+
+
 <!-- END HEADER -->
