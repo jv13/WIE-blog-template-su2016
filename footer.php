@@ -3,6 +3,7 @@
 
 
 <footer class="row">
+  <div class="container">
             <div class="three columns">
               <?php dynamic_sidebar('footer-one'); ?>
             </div>
@@ -18,7 +19,7 @@
             <div class="three columns">
               <?php dynamic_sidebar('footer-four'); ?>
             </div>
-
+</div>
       </footer>
 
   <?php wp_footer(); ?> <!-- ALLOWS FOR WORDPRESS TOP BAR TO END -->
