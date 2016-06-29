@@ -18,7 +18,7 @@ function blank_widgets_init() {
         'name'          => ('First Footer Widget'),
         'id'            => 'footer-one',
         'description'   => 'First footer in the widget',
-        'before_widget' => '<div class="widget-footer widget-left">',
+        'before_widget' => '<div class="widget-footer widget-one">',
         'after_widget'  => '</div>',
         'before_title'  => '<h3>',
         'after_title'   => '</h3>'
@@ -28,7 +28,7 @@ function blank_widgets_init() {
         'name'          => ('Second Footer Widget'),
         'id'            => 'footer-two',
         'description'   => 'Second footer in the widget',
-        'before_widget' => '<div class="widget-footer widget-middle">',
+        'before_widget' => '<div class="widget-footer widget-two">',
         'after_widget'  => '</div>',
         'before_title'  => '<h3>',
         'after_title'   => '</h3>'
@@ -39,7 +39,7 @@ function blank_widgets_init() {
         'name'          => ('Third Footer Widget'),
         'id'            => 'footer-three',
         'description'   => 'Third footer in the widget',
-        'before_widget' => '<div class="widget-footer widget-right">',
+        'before_widget' => '<div class="widget-footer widget-three">',
         'after_widget'  => '</div>',
         'before_title'  => '<h3>',
         'after_title'   => '</h3>'
@@ -49,7 +49,7 @@ function blank_widgets_init() {
         'name'          => ('Fourth Footer Widget'),
         'id'            => 'footer-four',
         'description'   => 'Fourth footer in the widget',
-        'before_widget' => '<div class="widget-footer widget-right">',
+        'before_widget' => '<div class="widget-footer widget-four">',
         'after_widget'  => '</div>',
         'before_title'  => '<h3>',
         'after_title'   => '</h3>'

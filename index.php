@@ -4,13 +4,13 @@
 
     <!-- BEGIN SECTION CONTAINER -->
         <section class="row">
-            <div class="twelve columns">
 
                 <!-- BEGIN LOOP -->
                 <?php
                   if ( have_posts() ) {
                     while ( have_posts() ) {
                       the_post(); ?>
+                      <div class="four columns">
                       <?php
 
                         if ( has_post_thumbnail() ) {
@@ -18,11 +18,12 @@
                         }
                       ?>
 
+                      <h4><?php the_date(); ?></h4>
                       <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-                      <?php the_excerpt(); ?>
 
-                      <p><a href="<?php the_permalink(); ?>">Read More</a></p>
+                      <h4><?php the_tags(); ?></h4>
 
+                    </div>
                   <?php
                     } // end while
                   } // end if
@@ -30,7 +31,6 @@
                 <!-- END LOOP -->
 
 
-            </div>
         </section>
     <!-- END SECTION CONTAINER -->
 
