@@ -19,11 +19,6 @@ body {
   border: 20px solid #c8f0d8;
 }
 
-#container {
-  background-color: #c8f0d8;
-  background-position: bottom left;
-}
-
 *{
     color: #000000;
     line-height: 1.5em;
@@ -98,6 +93,8 @@ a {
 /*--- End Menu --- */
 
 /*--- Begin Footer Style --- */
+
 footer {
-  background-color: #c8f0d8;
+   width: 100%;
+   background-color: #c8f0d8;
 }
