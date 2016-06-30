@@ -14,6 +14,10 @@ Text Domain: jen_vitrano_blog_site
   font-family: 'sweetPea';
   src: url(fonts/Sweet_Pea.ttf);
 }
+@font-face {
+  font-family: 'magni';
+  src: url(fonts/fontawesome-webfont.ttf);
+}
 
 body {
   border: 20px solid #c8f0d8;
@@ -42,6 +46,8 @@ h3 {
 h4 {
     font-size: 1.5rem;
     text-transform: uppercase;
+    color: #464646;
+    font-weight: 300;
 }
 
 h5 {
@@ -92,4 +98,29 @@ a {
 footer {
    width: 100%;
    background-color: #c8f0d8;
+}
+
+
+
+/*Code to change the main search form textbox colour styles*/
+.header-search {
+    display: block;
+    float: right;
+    margin-top: -27px;
+}
+
+#searchform #s {
+	width: 158px;
+	padding: 1px;
+	color: #000000;
+	background: #e1e1e1;
+	border: 1px solid #cccccc;
+	}
+
+form label {
+  display: none;
+  }
+
+.text{
+  text-align: right;
 }

@@ -24,17 +24,16 @@
         </header>
 
             <div class="row">
-              <div class="ten columns">
+              <div class="twelve columns">
                 <?php wp_nav_menu(array(
                   'sort_column' => 'menu_order',
                   'container_class' => 'blank-menu-header'
                 ));?>
+
+                <div class="header-search"><?php get_search_form(); ?></div>
+
               </div>
 
-              <div class="two columns">
-                <?php dynamic_sidebar('first-widget'); ?>
-              </div>
             </div>
-
 
 <!-- END HEADER -->

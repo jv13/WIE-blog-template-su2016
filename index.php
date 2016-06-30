@@ -3,6 +3,7 @@
 <!-- END HEADER -->
 
     <!-- BEGIN SECTION CONTAINER -->
+
         <section class="row">
 
                 <!-- BEGIN LOOP -->
