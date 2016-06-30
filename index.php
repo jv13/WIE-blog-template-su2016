@@ -5,7 +5,6 @@
     <!-- BEGIN SECTION CONTAINER -->
 <div class="container">
         <section class="row">
-
                 <!-- BEGIN LOOP -->
                 <?php
                   if ( have_posts() ) {
