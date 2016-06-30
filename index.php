@@ -3,7 +3,7 @@
 <!-- END HEADER -->
 
     <!-- BEGIN SECTION CONTAINER -->
-
+<div class="container">
         <section class="row">
 
                 <!-- BEGIN LOOP -->
@@ -33,6 +33,7 @@
 
 
         </section>
+</div>
     <!-- END SECTION CONTAINER -->
 
 <!-- BEGIN FOOTER-->
