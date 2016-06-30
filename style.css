@@ -138,6 +138,10 @@ footer {
 	border: 1px solid #cccccc;
 	}
 
+#searchform {
+  margin-top: -28px;
+}
+
 form label {
   display: none;
   }
