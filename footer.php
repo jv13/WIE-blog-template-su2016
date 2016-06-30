@@ -19,8 +19,12 @@
             <div class="three columns">
               <?php dynamic_sidebar('footer-four'); ?>
             </div>
-</div>
-      </footer>
+  </div>
+
+  <div class="twelve columns">
+      <p id="copyrite">	&copy; 2016 Jennifer Vitrano<p>
+  </div>
+</footer>
 
   <?php wp_footer(); ?> <!-- ALLOWS FOR WORDPRESS TOP BAR TO END -->
 </body>

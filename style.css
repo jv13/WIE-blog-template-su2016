@@ -21,6 +21,7 @@ Text Domain: jen_vitrano_blog_site
 
 body {
   border: 20px solid #c8f0d8;
+  font-size: 1.3em;
 }
 
 *, html, h1, h2, h3, h4, h5, h6 {
@@ -98,15 +99,29 @@ a {
 footer {
    width: 100%;
    background-color: #c8f0d8;
+   padding-top: 25px;
+   text-align: left;
 }
 
+.widget-footer.widget-two ul {
+  list-style-type: square;
+}
 
+.widget-footer.widget-four ul {
+  list-style: none;
+  font-size: 12px;
+}
+
+#copyrite {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: -25px;
+}
 
 /*Code to change the main search form textbox colour styles*/
 .header-search {
     display: block;
     float: right;
-    margin-top: -27px;
 }
 
 #searchform #s {
