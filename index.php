@@ -18,7 +18,7 @@
                         }
                       ?>
 
-                      <h4 class="postdate"><?php the_date(); ?></h4>
+                      <h4 class="postdate"><?php the_time('F j, Y'); ?> </h4>
 
                       <h3 class="posttitle"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 

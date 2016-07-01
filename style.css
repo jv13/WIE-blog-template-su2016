@@ -45,6 +45,8 @@ h3 {
     font-size: 18px;;
     text-transform: uppercase;
     font-family: 'helvetica';
+    font-weight: 600;
+
 }
 
 h4 {
@@ -62,7 +64,6 @@ h5 {
 
 a {
     color: #000000;
-    font-weight: 700;
     text-decoration: none;
 }
 
@@ -112,10 +113,21 @@ footer {
   list-style-type: square;
 }
 
-.tagcloud a {
+/*.tagcloud a {
   border: .5px solid #000000;
   padding: 5px;
   background-color: #ffffff;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-bottom: 100px;
+}*/
+
+.tagcloud a {
+  background:#ffffff;
+  border: .5px solid #000000;
+  padding:5px;
+  margin: 5px;
+  float:left;
 }
 
 .widget-footer.widget-four ul {
@@ -128,6 +140,10 @@ footer {
   text-transform: uppercase;
   margin-bottom: -25px;
 }
+
+
+/* -- End Footer Styling -- *\
+
 
 /*Code to change the main search form textbox colour styles*/
 .header-search {
@@ -161,5 +177,4 @@ form label {
 
 .posttags {
   margin-top: -15px;
-  font-weight: normal;
 }

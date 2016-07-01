@@ -70,5 +70,13 @@ add_theme_support('menus');
 /*--- Enable Post Thumbnails ---*/
 add_theme_support( 'post-thumbnails' );
 
+/* Tagcloud, change the font size */
+function custom_tag_cloud_widget($args) {
+$args['largest'] = 11; //largest tag
+$args['smallest'] = 11; //smallest tag
+$args['unit'] = 'px'; //tag font unit
+return $args;
+}
+add_filter( 'widget_tag_cloud_args', 'custom_tag_cloud_widget' );
 
 ?>
