@@ -122,6 +122,11 @@ footer {
   margin-bottom: 100px;
 }*/
 
+attachment-thumbnail size-thumbnail wp-post-image {
+  width: 100%;
+}
+
+
 .tagcloud a {
   background:#ffffff;
   border: .5px solid #000000;
@@ -177,4 +182,8 @@ form label {
 
 .posttags {
   margin-top: -15px;
+}
+
+section.row {
+  float: left;
 }

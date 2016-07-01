@@ -5,16 +5,18 @@
     <!-- BEGIN SECTION CONTAINER -->
 <div class="container">
         <section class="row">
+
                 <!-- BEGIN LOOP -->
                 <?php
                   if ( have_posts() ) {
                     while ( have_posts() ) {
                       the_post(); ?>
+
                       <div class="four columns">
                       <?php
 
                         if ( has_post_thumbnail() ) {
-                            the_post_thumbnail('thumbnail');
+                            the_post_thumbnail('medium');
                         }
                       ?>
 
@@ -29,7 +31,7 @@
                     } // end while
                   } // end if
                 ?>
-                <!-- END LOOP -->
+                  <!-- End LOOP -->
 
 
         </section>
