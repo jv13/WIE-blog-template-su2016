@@ -4,7 +4,14 @@
 
     <!-- BEGIN SECTION CONTAINER -->
 <div class="container">
+
+
+            <?php dynamic_sidebar('first-widget'); ?>
+
+
         <section class="row">
+
+
 
                 <!-- BEGIN LOOP -->
                 <?php
@@ -13,6 +20,7 @@
                       the_post(); ?>
 
                       <div class="four columns">
+
                       <?php
 
                         if ( has_post_thumbnail() ) {
@@ -26,7 +34,9 @@
 
                       <h4 class="posttags"><?php the_tags(); ?></h4>
 
-                    </div>
+</div>
+
+
                   <?php
                     } // end while
                   } // end if

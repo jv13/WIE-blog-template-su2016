@@ -6,7 +6,7 @@ function blank_widgets_init() {
     register_sidebar( array(
         'name'          => ('First Widget'),
         'id'            => 'first-widget',
-        'description'   => 'Widget for our sidebar on pages',
+        'description'   => 'Widget for our index page',
         'before_widget' => '<div class="widget-sidebar">',
         'after_widget'  => '</div>',
         'before_title'  => '<h2>',
