@@ -19,7 +19,9 @@
                     while ( have_posts() ) {
                       the_post(); ?>
 
+
                       <div class="four columns">
+                        <section class="row">
 
                       <?php
 
@@ -33,7 +35,7 @@
                       <h3 class="posttitle"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 
                       <h4 class="posttags"><?php the_tags(); ?></h4>
-
+</section>
 </div>
 
 
