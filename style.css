@@ -14,14 +14,15 @@ Text Domain: jen_vitrano_blog_site
   font-family: 'sweetPea';
   src: url(fonts/Sweet_Pea.ttf);
 }
-@font-face {
-  font-family: 'magni';
-  src: url(fonts/fontawesome-webfont.ttf);
+
+@@font-face {
+  font-family: 'helvetica';
+  src: url(fonts/Helvetica.dfont);
 }
 
 body {
   border: 20px solid #c8f0d8;
-  font-size: 1.3em;
+  /*font-size: 1.3em;*/
 }
 
 *, html, h1, h2, h3, h4, h5, h6 {
@@ -37,22 +38,26 @@ h1 {
 h2{
     font-size: 18px;
     margin-top: -30px;
+    font-family: 'helvetica';
 }
 
 h3 {
-    font-size: 2.0rem;
+    font-size: 18px;;
     text-transform: uppercase;
+    font-family: 'helvetica';
 }
 
 h4 {
-    font-size: 1.5rem;
+    font-size: 14px;
     text-transform: uppercase;
     color: #464646;
     font-weight: 300;
+    font-family: 'helvetica';
 }
 
 h5 {
     font-size: 1.2rem;
+    font-family: 'helvetica';
 }
 
 a {
@@ -148,4 +153,13 @@ form label {
 
 .text{
   text-align: right;
+}
+
+.posttitle {
+  margin-top: -15px;
+}
+
+.posttags {
+  margin-top: -15px;
+  font-weight: normal;
 }
