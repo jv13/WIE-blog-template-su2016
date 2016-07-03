@@ -225,3 +225,9 @@ ul.xoxo.blogroll {
   margin-bottom: 20px;
   padding: 10px;
 }
+
+/*--- Begin Archive Page Style --- */
+#errorheader {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
