@@ -85,6 +85,16 @@ function blank_widgets_init() {
         'after_title'   => '</h3>'
     ));
 
+    register_sidebar( array(
+        'name'          => ('Contact One Widget'),
+        'id'            => 'contact-one',
+        'description'   => 'Left side in the widget',
+        'before_widget' => '<div class="widget-contact widget-one">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3>',
+        'after_title'   => '</h3>'
+    ));
+
 
 
     }

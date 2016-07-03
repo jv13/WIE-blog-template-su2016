@@ -171,7 +171,7 @@ attachment-thumbnail size-thumbnail wp-post-image {
   margin-top: -28px;
 }
 
-form label {
+#donotshow {
   display: none;
   }
 
@@ -185,6 +185,36 @@ form label {
 
 .posttags {
   margin-top: -15px;
+}
+
+/*--- Contact Form --- */
+#contactform {
+  padding-left: 25px;
+  margin-bottom: 100px;
+}
+
+input[type=text], textarea[name="Message"]{
+  background-color: #e1e1e1;
+}
+
+.submit-button  {
+  margin-left: 285px;
+}
+
+#emailcenter {
+  text-align: center;
+}
+
+ul.xoxo.blogroll {
+  list-style: none;
+}
+
+#emailcenter h3 {
+  display: none;
+}
+
+#emailcenter ul li{
+  display: inline;
 }
 
 
