@@ -55,6 +55,36 @@ function blank_widgets_init() {
         'after_title'   => '</h3>'
     ));
 
+    register_sidebar( array(
+        'name'          => ('Archive One Widget'),
+        'id'            => 'archive-one',
+        'description'   => 'First archive section in the widget',
+        'before_widget' => '<div class="widget-archive widget-one">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3>',
+        'after_title'   => '</h3>'
+    ));
+
+    register_sidebar( array(
+        'name'          => ('Archive Two Widget'),
+        'id'            => 'archive-two',
+        'description'   => 'Second archive section in the widget',
+        'before_widget' => '<div class="widget-archive widget-two">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3>',
+        'after_title'   => '</h3>'
+    ));
+
+    register_sidebar( array(
+        'name'          => ('Archive Three Widget'),
+        'id'            => 'archive-three',
+        'description'   => 'Third archive section in the widget',
+        'before_widget' => '<div class="widget-archive widget-three">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3>',
+        'after_title'   => '</h3>'
+    ));
+
 
 
     }

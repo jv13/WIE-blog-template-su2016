@@ -10,6 +10,7 @@
 
 
         <section class="row">
+          <div class="twelve columns">
 
 
 
@@ -44,7 +45,7 @@
                 ?>
                   <!-- End LOOP -->
 
-
+                </div>
         </section>
 </div>
     <!-- END SECTION CONTAINER -->

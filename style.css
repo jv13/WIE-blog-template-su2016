@@ -36,7 +36,7 @@ h1 {
 }
 
 h2{
-    font-size: 18px;
+    font-size: 24px;
     margin-top: -30px;
     font-family: 'helvetica';
 }
@@ -71,6 +71,9 @@ a {
   text-align: center;
 }
 
+#pageheader {
+  border-bottom: 5px solid #c8f0d8;
+}
 
 /*--- Menu --- */
 .blank-menu-header {
@@ -187,11 +190,6 @@ form label {
 
 /*--- Begin Archive Page Style --- */
 
-#headerarch {
-  font-size: 24px;
-  margin-top: -30px;
-  font-family: 'helvetica';
-}
 .borderposts {
   border: 5px solid #c8f0d8;
   margin-bottom: 20px;

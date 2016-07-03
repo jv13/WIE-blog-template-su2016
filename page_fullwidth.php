@@ -4,6 +4,7 @@ Template name: Full Width
 */
 ?>
 <?php get_header(); ?>
+<div class="container">
 <section class="row">
     <div class="twelve columns">
     <!-- BEGIN PAGE PHP -->
@@ -17,4 +18,5 @@ Template name: Full Width
     <!-- END PAGE PHP -->
     </div>
 </section>
+</div>
 <?php get_footer(); ?>

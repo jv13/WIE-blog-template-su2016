@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<div class="container>"
     <section class="row">
         <div class="eight columns">
 
@@ -21,5 +21,5 @@
             <?php get_sidebar(); ?>
         </div>
     </section>
-
+</div>
 <?php get_footer(); ?>
