@@ -21,22 +21,21 @@
 
 
                       <div class="four columns">
-                        <section class="row">
 
-                      <?php
+                          <?php
 
-                        if ( has_post_thumbnail() ) {
-                            the_post_thumbnail('medium');
-                        }
-                      ?>
+                            if ( has_post_thumbnail() ) {
+                                the_post_thumbnail('medium');
+                            }
+                          ?>
 
-                      <h4 class="postdate"><?php the_time('F j, Y'); ?> </h4>
+                          <h4 class="postdate"><?php the_time('F j, Y'); ?> </h4>
 
-                      <h3 class="posttitle"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                          <h3 class="posttitle"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 
-                      <h4 class="posttags"><?php the_tags(); ?></h4>
-</section>
-</div>
+                          <h4 class="posttags"><?php the_tags(); ?></h4>
+
+                      </div>
 
 
                   <?php
