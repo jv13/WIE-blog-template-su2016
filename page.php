@@ -17,9 +17,7 @@
 
         </div>
 
-        <div class="four columns">
-            <?php get_sidebar(); ?>
-        </div>
     </section>
+
 </div>
 <?php get_footer(); ?>

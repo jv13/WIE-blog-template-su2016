@@ -253,7 +253,7 @@ ul.xoxo.blogroll {
   margin-bottom: -2px;
 }
 
-p#signature{
+p.signature {
   font-family: 'sweetpea';
   font-size: 46px;
   float: right;
@@ -263,4 +263,20 @@ p#signature{
 .widget-about.widget-three h3 {
   font-weight: normal;
   font-size: 14px;
+}
+
+
+/*--- Begin Single Post Page Style --- */
+.postpicture {
+  height: 200px;
+  };
+}
+
+.post-thumbnail h2 #posttitle{
+  background-color: #c8f0d8;
+}
+
+.single .relatedposts .relatedthumb {
+    display:inline-block;
+    width: 32%;
 }

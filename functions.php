@@ -125,6 +125,17 @@ function blank_widgets_init() {
         'after_title'   => '</h3>'
     ));
 
+    register_sidebar( array(
+        'name'          => ('Post One Widget'),
+        'id'            => 'post-one',
+        'description'   => 'Post social widget',
+        'before_widget' => '<div class="widget-post widget-one">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3>',
+        'after_title'   => '</h3>'
+    ));
+
+
 
 
 

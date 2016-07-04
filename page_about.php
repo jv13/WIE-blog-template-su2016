@@ -17,7 +17,7 @@ Template name: About Template
       <?php dynamic_sidebar('about-two'); ?>
     </div>
 
-    <p id="signature"> -- jen </p>
+    <p class="signature"> -- jen </p>
 
   </section>
 
