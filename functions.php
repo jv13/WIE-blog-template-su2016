@@ -88,12 +88,43 @@ function blank_widgets_init() {
     register_sidebar( array(
         'name'          => ('Contact One Widget'),
         'id'            => 'contact-one',
-        'description'   => 'Left side in the widget',
+        'description'   => 'Right side in the contact widget',
         'before_widget' => '<div class="widget-contact widget-one">',
         'after_widget'  => '</div>',
         'before_title'  => '<h3>',
         'after_title'   => '</h3>'
     ));
+
+    register_sidebar( array(
+        'name'          => ('About One Widget'),
+        'id'            => 'about-one',
+        'description'   => 'Left side in the about widget',
+        'before_widget' => '<div class="widget-about widget-one">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3>',
+        'after_title'   => '</h3>'
+    ));
+
+    register_sidebar( array(
+        'name'          => ('About Two Widget'),
+        'id'            => 'about-two',
+        'description'   => 'Right side in the about widget',
+        'before_widget' => '<div class="widget-about widget-two">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3>',
+        'after_title'   => '</h3>'
+    ));
+
+    register_sidebar( array(
+        'name'          => ('About Three Widget'),
+        'id'            => 'about-three',
+        'description'   => 'Bottom in the about widget',
+        'before_widget' => '<div class="widget-about widget-three">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3>',
+        'after_title'   => '</h3>'
+    ));
+
 
 
 
