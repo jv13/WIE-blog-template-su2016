@@ -19,7 +19,7 @@
                     $url = home_url('/');
                     echo $url;
                   ?>"><?php bloginfo('name'); ?></a></h1>
-                <h2 class="titles h2"><?php bloginfo('description'); ?></h2>
+                <h2 class="titles h2 desctitle"><?php bloginfo('description'); ?></h2>
             </div>
         </header>
 

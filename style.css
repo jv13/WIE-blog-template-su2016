@@ -37,8 +37,12 @@ h1 {
 
 h2{
     font-size: 24px;
-    margin-top: -30px;
     font-family: 'helvetica';
+}
+
+.desctitle {
+    margin-top: -30px;
+
 }
 
 h3 {
@@ -272,12 +276,10 @@ p.signature {
   };
 }
 
-.post-thumbnail h2 #posttitle{
-  background-color: #c8f0d8;
-}
-
 
 /*.relatedposts .relatedthumb {
     display:inline-block;
     width: 32%;
 }*/
+
+.entry-header .entry-title {background-color: pink;padding:5px;}
