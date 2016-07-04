@@ -10,8 +10,9 @@
                     the_post();
 
                     if ( has_post_thumbnail() ) { ?>
-                      <div class="post-thumbnail" class="postpicture">
-                        <?php the_post_thumbnail('large'); ?>
+                      <div class="post-thumbnail">
+                        <?php the_post_thumbnail( 'single-post-thumbnail' ); ?>
+
                       </div>
                     <?php } ?>
 

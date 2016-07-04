@@ -158,6 +158,10 @@ add_theme_support('menus');
 
 /*--- Enable Post Thumbnails ---*/
 add_theme_support( 'post-thumbnails' );
+add_image_size( 'single-post-thumbnail', '960', '600', array( "1", "") );
+
+
+
 
 /*--- Tagcloud, change the font size ---*/
 function custom_tag_cloud_widget($args) {
