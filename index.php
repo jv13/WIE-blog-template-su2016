@@ -23,12 +23,12 @@
 
                       <div class="four columns">
 
-                          <?php
+                          <a href="<?php the_permalink(); ?>"><?php
 
                             if ( has_post_thumbnail() ) {
                                 the_post_thumbnail('medium');
                             }
-                          ?>
+                          ?></a>
 
                           <h4 class="postdate"><?php the_time('F j, Y'); ?> </h4>
 
