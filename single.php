@@ -16,11 +16,11 @@
                     <?php } ?>
 
                     <div id="singleposttitle">
-                      <h4><?php the_time('F j, Y'); ?></h4>
+                      <h4 class="postdates"><?php the_time('F j, Y'); ?></h4>
                       <h2><?php the_title(); ?></h2>
                       <h4 class="posttags"><?php the_tags(); ?></h4>
                     </div>
-                    <?php the_content(); ?>
+                    <div class="postcontent"><?php the_content(); ?></div>
 
                   <!-- Hupso Share Buttons - http://www.hupso.com/share/ --><div class="hupso-share-buttons"><a class="hupso_toolbar" href="http://www.hupso.com/share/"><img src="//static.hupso.com/share/buttons/share-medium.png" style="border:0px; padding-top:5px; float:left;" alt="Share Button"/></a><script type="text/javascript">var hupso_services_t=new Array("Twitter","Facebook","Google Plus","Pinterest","Linkedin","Email","Print");var hupso_toolbar_size_t="medium";</script><script type="text/javascript" src="//static.hupso.com/share/js/share_toolbar.js"></script></div><!-- Hupso Share Buttons -->
 

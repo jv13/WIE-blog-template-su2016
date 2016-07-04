@@ -48,15 +48,6 @@ h2 {
     font-family: 'helvetica';
 }
 
-#singleposttitle{
-    background-color: #c8f0d8;
-    text-align: center;
-    z-index: 9;
-    padding: 20px 0;
-    margin-top: -100px;
-    float: none;
-}
-
 #singleposttitle h2{
     margin-top: -15px;
 }
@@ -156,10 +147,9 @@ footer {
   margin-bottom: 100px;
 }*/
 
-attachment-thumbnail size-thumbnail wp-post-image {
-  width: 100%;
+img {
+  max-width: 960px;
 }
-
 
 .tagcloud a {
   background:#ffffff;
@@ -180,8 +170,6 @@ attachment-thumbnail size-thumbnail wp-post-image {
   margin-bottom: -25px;
   margin-top: 15px;
 }
-
-
 /* -- End Footer Styling -- *\
 
 
@@ -215,8 +203,8 @@ attachment-thumbnail size-thumbnail wp-post-image {
   margin-top: -15px;
 }
 
-.posttags {
-  margin-top: -15px;
+.posttags{
+  margin-top: -12px;
 }
 
 /*--- Contact Form --- */
@@ -288,7 +276,19 @@ ul.xoxo.blogroll {
 
 
 /*--- Begin Single Post Page Style --- */
-.postpicture {
-  height: 200px;
-  };
+
+#singleposttitle{
+    margin: auto;
+    width: 50%;
+    display: block;
+    background-color: #c8f0d8;
+    text-align: center;
+    padding: 20px;
+    margin-top: -100px;
+    position: relative;
+    border: 1px solid #000000;
+}
+
+.postcontent {
+  margin-top: 25px;
 }
