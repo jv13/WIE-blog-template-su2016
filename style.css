@@ -20,6 +20,14 @@ Text Domain: jen_vitrano_blog_site
   src: url(fonts/Helvetica.dfont);
 }
 
+p.signature,
+p#signature {
+  font-family: 'sweetpea';
+  font-size: 46px;
+  float: right;
+  margin-right: 10px;
+}
+
 body {
   border: 20px solid #c8f0d8;
   /*font-size: 1.3em;*/
@@ -271,13 +279,6 @@ ul.xoxo.blogroll {
 
 .widget-about.widget-one p {
   margin-bottom: -2px;
-}
-
-p.signature {
-  font-family: 'sweetpea';
-  font-size: 46px;
-  float: right;
-  margin-right: 10px;
 }
 
 .widget-about.widget-three h3 {
