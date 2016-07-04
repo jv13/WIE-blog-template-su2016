@@ -132,6 +132,7 @@ footer {
    background-color: #c8f0d8;
    padding-top: 25px;
    text-align: left;
+   margin: auto;
 }
 
 .widget-footer.widget-two ul {
@@ -169,6 +170,7 @@ attachment-thumbnail size-thumbnail wp-post-image {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: -25px;
+  margin-top: 15px;
 }
 
 

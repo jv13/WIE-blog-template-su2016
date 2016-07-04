@@ -45,6 +45,7 @@ function blank_widgets_init() {
         'after_title'   => '</h3>'
     ));
 
+        /*--- Fourth Footer Widget ---*/
     register_sidebar( array(
         'name'          => ('Fourth Footer Widget'),
         'id'            => 'footer-four',
@@ -55,6 +56,7 @@ function blank_widgets_init() {
         'after_title'   => '</h3>'
     ));
 
+        /*--- First Archive Widget ---*/
     register_sidebar( array(
         'name'          => ('Archive One Widget'),
         'id'            => 'archive-one',
@@ -65,6 +67,7 @@ function blank_widgets_init() {
         'after_title'   => '</h3>'
     ));
 
+        /*--- Second Archive Widget ---*/
     register_sidebar( array(
         'name'          => ('Archive Two Widget'),
         'id'            => 'archive-two',
@@ -75,6 +78,7 @@ function blank_widgets_init() {
         'after_title'   => '</h3>'
     ));
 
+        /*--- Third Archive Widget ---*/
     register_sidebar( array(
         'name'          => ('Archive Three Widget'),
         'id'            => 'archive-three',
@@ -95,6 +99,7 @@ function blank_widgets_init() {
         'after_title'   => '</h3>'
     ));
 
+        /*--- First About Widget ---*/
     register_sidebar( array(
         'name'          => ('About One Widget'),
         'id'            => 'about-one',
@@ -105,6 +110,7 @@ function blank_widgets_init() {
         'after_title'   => '</h3>'
     ));
 
+        /*--- Second About Widget ---*/
     register_sidebar( array(
         'name'          => ('About Two Widget'),
         'id'            => 'about-two',
@@ -115,6 +121,7 @@ function blank_widgets_init() {
         'after_title'   => '</h3>'
     ));
 
+        /*--- Third About Widget ---*/
     register_sidebar( array(
         'name'          => ('About Three Widget'),
         'id'            => 'about-three',
@@ -125,6 +132,7 @@ function blank_widgets_init() {
         'after_title'   => '</h3>'
     ));
 
+        /*--- First Post Widget ---*/
     register_sidebar( array(
         'name'          => ('Post One Widget'),
         'id'            => 'post-one',
@@ -146,13 +154,12 @@ add_action('widgets_init', 'blank_widgets_init');
 
 
 /*-------------- Enable Menu --------------- */
-
 add_theme_support('menus');
 
 /*--- Enable Post Thumbnails ---*/
 add_theme_support( 'post-thumbnails' );
 
-/* Tagcloud, change the font size */
+/*--- Tagcloud, change the font size ---*/
 function custom_tag_cloud_widget($args) {
 $args['largest'] = 11; //largest tag
 $args['smallest'] = 11; //smallest tag
