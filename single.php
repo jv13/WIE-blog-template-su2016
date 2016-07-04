@@ -38,8 +38,11 @@
     </section>
 
     <section class="row">
-      <div class="four columns">
-      <div class="relatedposts">
+      <div class="twelve columns">
+        <?php wp_related_posts()?>
+
+
+      <!-- <div class="relatedposts">
         <h3>Related posts</h3>
           <?php
             $orig_post = $post;
@@ -75,7 +78,7 @@
       $post = $orig_post;
       wp_reset_query();
       ?>
-  </div>
+  </div> -->
 </div>
 
 

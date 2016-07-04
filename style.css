@@ -288,3 +288,8 @@ ul.xoxo.blogroll {
 .postcontent {
   margin-top: 25px;
 }
+
+.relatedposts .relatedthumb {
+      width: 32%;
+    display:inline-block;
+}
