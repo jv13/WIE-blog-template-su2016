@@ -15,9 +15,9 @@ Template name: About Template
 
     <div class="six columns">
       <?php dynamic_sidebar('about-two'); ?>
-
-      <p id="signature"> -- jen </p>
     </div>
+
+    <p id="signature"> -- jen </p>
 
   </section>
 
