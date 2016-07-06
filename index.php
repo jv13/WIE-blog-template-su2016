@@ -36,17 +36,22 @@
 
                           <h4 class="posttags"><?php the_tags(); ?></h4>
 
+
                       </div>
 
 
                   <?php
                     } // end while
+
                   } // end if
                 ?>
+
+
                   <!-- End LOOP -->
 
-
+<?php echo do_shortcode('[ajax_load_more post_type="post" pause="true"]'); ?>
                 </div>
+
         </section>
 </div>
     <!-- END SECTION CONTAINER -->
