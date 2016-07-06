@@ -49,7 +49,8 @@
 
                   <!-- End LOOP -->
 
-<?php echo do_shortcode('[ajax_load_more post_type="post" pause="true"]'); ?>
+                  <!-- Load More Buton Code -->
+                  <?php echo do_shortcode('[ajax_load_more post_type="post" pause="true"]'); ?>
                 </div>
 
         </section>
