@@ -25,6 +25,7 @@ get_header(); ?>
          else : ?></div>
             <h1>Nothing Found</h1>
             <p>Sorry, but nothing matched your search criteria. Please try again with different search terms.</p>
+            <?php get_search_form(); ?>
         <?php endif; ?>
 
     </div>

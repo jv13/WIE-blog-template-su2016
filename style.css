@@ -15,7 +15,7 @@ Text Domain: jen_vitrano_blog_site
   src: url(fonts/Sweet_Pea.ttf);
 }
 
-@@font-face {
+@font-face {
   font-family: 'helvetica';
   src: url(fonts/Helvetica.dfont);
 }
@@ -138,15 +138,6 @@ footer {
   list-style-type: square;
 }
 
-/*.tagcloud a {
-  border: .5px solid #000000;
-  padding: 5px;
-  background-color: #ffffff;
-  margin-bottom: 20px;
-  margin-left: 5px;
-  margin-bottom: 100px;
-}*/
-
 .tagcloud a {
   background:#ffffff;
   border: .5px solid #000000;
@@ -191,19 +182,8 @@ footer {
   display: none;
   }
 
-.text{
-  text-align: right;
-}
 
-.posttitle {
-  margin-top: -15px;
-}
-
-.posttags{
-  margin-top: -12px;
-}
-
-/*--- Contact Form --- */
+/*--- Contact Form Begin--- */
 #contactform {
   padding-left: 25px;
   margin-bottom: 100px;
@@ -293,3 +273,4 @@ ul.xoxo.blogroll {
       width: 32%;
     display:inline-block;
 }
+/*--- End Single Post Page Style --- */
