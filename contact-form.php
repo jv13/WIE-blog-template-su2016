@@ -1,14 +1,15 @@
 <?php
 
-$to      = "vitranojen@gmail.com";
+$to      = "your-email@your-domain.com";
 $subject = "New Contact Form Submission";
-$message = Trim(stripslashes($_POST['Message']));
-$from    = Trim(stripslashes($_POST['Email']));
-$name    = Trim(stripslashes($_POST['Name']));
+$message = trim(stripslashes($_POST['Message']));
+$from    = trim(stripslashes($_POST['Email']));
+$name    = trim(stripslashes($_POST['Name']));
 
 $validationOK = true;
+
 if (!$validationOK) {
-  print "<meta http-equiv=\"refresh\" content=\"0;URL=error.htm\">";
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=thank-you.htm\">";
   exit;
 }
 
